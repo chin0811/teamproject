@@ -1,0 +1,103 @@
+/* 網頁字體載入 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500&display=swap'); 
+/* 網頁字體和背景顏色 */
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #141414;
+}
+/* 主要的顏色 */
+.mainColor{
+    color:#FFFFFF;
+}
+/* 主要的背景色 */
+.mainBgColor{
+    background-color:#FFFFFF;
+}
+/* 按鈕的強調色 */
+.epFColor{
+    color:#FFD60A;
+}
+/* 按鈕背景的強調色 */
+.epFBgColor{
+    background-color:#FFD60A;
+}
+/* 文字的強調色 */
+.epBColor{
+    color:#394897;
+}
+/* 文字背景的強調色 */
+.epBBgColor{
+    background-color:#394897;
+}
+/* 文字顏色(深色) */
+.deepColor{
+    color: #141414;
+}
+/* 文字背景色(深色) */
+.deepBgColor{
+    background-color:#141414;
+}
+/* 錯誤時使用色(輔色) */
+.aidEColor{
+    color:#EF5C5C;
+}
+/* 錯誤時背景使用色(輔色) */
+.aidEBgColor{
+    background-color:#EF5C5C;
+}
+/* 正確時使用色(輔色) */
+.aidRColor{
+    color:#7AC74F;
+}
+/* 正確時背景使用色(輔色) */
+.aidRBgColor{
+    background-color:#7AC74F;
+}
+/* 背景輔助色 */
+.aidBgColor{
+    background-color: #FBF7F3;
+}
+/* 主標文字大小 */
+h1{
+    font-size: 6.25em;
+}
+/* 副標文字大小 */
+h2{
+    font-size: 2.5em;
+}
+/* 內文標題大小 */
+h3{
+    font-size: 2.125em;
+}
+/* 內文副標大小 */
+h4{
+    font-size: 1.375em;
+}
+/* 內文文字大小 */
+p{
+    font-size:1em;
+}
+
+
+@media screen and (max-width:768px){
+    /* 主標文字大小(手機) */
+    h1{
+        font-size: 4.375em;
+    }
+    /* 副標文字大小(手機) */
+    h2{
+        font-size: 1.5em;
+    }
+    /* 內文標題大小(手機) */
+    h3{
+        font-size: 1.25em;
+    }
+    /* 內文副標大小(手機) */
+    h4{
+        font-size: 1.125em;
+    }
+    /* 內文文字大小(手機) */
+    p{
+        font-size:1em;
+    }
+}
